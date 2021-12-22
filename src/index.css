@@ -1,1 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poly:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poly", serif;
+}
 
+.home {
+  height: 100vh;
+  background: white;
+}
+
+header {
+  height: 6vh;
+  background: black;
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 5rem 0 7rem;
+  font-size: medium;
+}
+
+.header-content span {
+  margin-top: 6px;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-nav p {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+
+.down-arrow {
+  width: 10px;
+  margin: 1px 0 0 4px;
+}
+
+.navbar {
+  height: 13vh;
+  background: #0b090a;
+  color: white;
+}
+
+.navbar-content {
+  margin: 0rem 5rem 0 7rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 45px;
+}
+
+.nav-opt {
+  margin-top: 1rem;
+}
+
+.nav-opt span {
+  margin-left: 3.5rem;
+}
+
+.btn {
+  background: #db1218;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
